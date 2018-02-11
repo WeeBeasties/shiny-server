@@ -58,7 +58,7 @@ ui <- dashboardPage(
 		    	"<script>
 		    	(function() {
 		    	var d = document, s = d.createElement('script');
-		    	s.src = 'https://dashboard-3.disqus.com/embed.js';
+		    	s.src = 'https://demo-dashboard.disqus.com/embed.js';
 		    	s.setAttribute('data-timestamp', +new Date());
 		    	(d.head || d.body).appendChild(s);
 		    	})();
@@ -66,7 +66,7 @@ ui <- dashboardPage(
 		    	<noscript>Please enable JavaScript to view the <a href='https://disqus.com/?ref_noscript' rel='nofollow'>comments powered by Disqus.</a></noscript>"
 		    )
 			),
-		div(HTML('<script id="dsq-count-scr" src="//dashboard-3.disqus.com/count.js" async></script>'))
+		div(HTML('<script id="dsq-count-scr" src="//demo-dashboard.disqus.com/count.js" async></script>'))
 
 
 
